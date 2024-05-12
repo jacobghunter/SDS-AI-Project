@@ -5,11 +5,11 @@
 ### Endpoints:
 
 1.  /articles/\<int:num>
-    a. GET request, gets the number of articles specified in URL
+    1. GET request, gets the number of articles specified in URL
 2.  /delete_article
-    a. POST request, expecting a JSON in the form `{'article': 'article_name'}`. Deletes the specified article from the flasks server
+    1. POST request, expecting a JSON in the form `{'article': 'article_name'}`. Deletes the specified article from the flasks server
 3.  /upload_article/\<string:article_title>
-    a. POST request, expecting an HTML document as the body (the newly formatted article). Uploads the article and sends notification (still a work in progress).
+    1. POST request, expecting an HTML document as the body (the newly formatted article). Uploads the article and sends notification (still a work in progress).
 
 ### Files:
 
