@@ -91,7 +91,7 @@ def upload_article_docs(article_name: str):
     aw.Document(f"{article_name}.html").save(f"{article_name}.doc") # convert to docx for file upload
     
     # upload to google docs
-    drive_upload.get_file()
+    # drive_upload.get_file()
     # drive_upload.upload_document(f'{article_name}.doc', f'{article_name}.doc')
 
     os.remove(f"{article_name}.doc") # remove the docx file after upload
