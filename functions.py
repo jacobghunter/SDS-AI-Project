@@ -68,7 +68,11 @@ def get_articles(num):
         
 def upload_article(article_name: str):
     try:
-        upload_article_docs(article_name) # not working yet, need to get the upload to show up in the user's drive
+        # upload_article_docs(article_name) # not working yet, need to get the upload to show up in the user's drive
+
+        # for PHP upload, get the file as named below and use the function to trigger the php
+        # article_name.html
+        # trigger_php_upload()
         
         # upload_article_wordpress(article_name)
         
