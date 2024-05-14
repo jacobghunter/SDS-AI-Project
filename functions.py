@@ -2,7 +2,7 @@ import json
 from article import article_obj
 import aspose.words as aw
 import os
-import drive_upload
+# import drive_upload
 
 def get_article(title: str):
     # with open('articles.json', 'w') as f:
