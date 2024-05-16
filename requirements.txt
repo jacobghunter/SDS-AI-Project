@@ -4,3 +4,4 @@ Flask==3.0.3
 google_api_python_client==2.122.0
 protobuf==5.26.1
 Requests==2.31.0
+gunicorn==22.0.0
